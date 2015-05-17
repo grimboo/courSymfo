@@ -1,6 +1,6 @@
 binss_vitrine:
-    resource: "@BinssVitrineBundle/Resources/config/routing.yml"
-    prefix:   /
+    resource: "@BinssVitrineBundle/Controller"
+    type:    annotation
 
 app:
     resource: "@AppBundle/Controller/"

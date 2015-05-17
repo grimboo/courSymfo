@@ -1,10 +1,18 @@
 <?php
 namespace Binss\VitrineBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-/*class VitrineController extends Controller
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+
+
+class VitrineController extends Controller
 {
-   public function indexAction($name)
+    /**
+     * @Route("/", name="accueil")
+     * @Template
+     */
+   public function accueilAction()
     {
-        return $this->render('BinssVitrineBundle:Default:index.html.twig', array('name' => $name));
+        return array();
     }
-}*/
+}
