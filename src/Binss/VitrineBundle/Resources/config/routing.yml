@@ -1,0 +1,3 @@
+binss_vitrine_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BinssVitrineBundle:Default:index }
